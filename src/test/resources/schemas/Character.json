@@ -1,0 +1,137 @@
+{
+  "definitions": {},
+  "title": "Root",
+  "type": "object",
+  "properties": {
+    "count": {
+      "title": "Count",
+      "type": "integer",
+      "default": 0
+    },
+    "next": {
+      "title": "Next",
+      "type": "null",
+      "default": null
+    },
+    "previous": {
+      "title": "Previous",
+      "type": "null",
+      "default": null
+    },
+    "results": {
+      "title": "Results",
+      "type": "array",
+      "default": [],
+      "items": {
+        "title": "Items",
+        "type": "object",
+        "properties": {
+          "name": {
+            "title": "Name",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "height": {
+            "title": "Height",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "mass": {
+            "title": "Mass",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "hair_color": {
+            "title": "Hair_color",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "skin_color": {
+            "title": "Skin_color",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "eye_color": {
+            "title": "Eye_color",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "birth_year": {
+            "title": "Birth_year",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "gender": {
+            "title": "Gender",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "homeworld": {
+            "title": "Homeworld",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "films": {
+            "title": "Films",
+            "type": "array",
+            "default": [],
+            "items": {
+              "title": "Items",
+              "type": "string",
+              "default": "",
+              "pattern": "^.*$"
+            }
+          },
+          "species": {
+            "title": "Species",
+            "type": "array",
+            "default": [],
+            "items": {
+              "title": "Items",
+              "type": "string",
+              "default": "",
+              "pattern": "^.*$"
+            }
+          },
+          "vehicles": {
+            "title": "Vehicles",
+            "type": "array",
+            "default": []
+          },
+          "starships": {
+            "title": "Starships",
+            "type": "array",
+            "default": []
+          },
+          "created": {
+            "title": "Created",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "edited": {
+            "title": "Edited",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "url": {
+            "title": "Url",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          }
+        }
+      }
+    }
+  }
+}
